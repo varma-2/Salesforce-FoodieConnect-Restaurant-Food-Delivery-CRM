@@ -1,58 +1,64 @@
-Phase 1: Problem Understanding & Industry Analysis
+# Phase 1: Problem Understanding & Industry Analysis
+**Project:** FoodieConnect – Restaurant & Food Delivery CRM
 
-Project: FoodieConnect – Restaurant & Food Delivery CRM
+---
 
-1. Requirement Gathering
+## 1. Problem Statement
+In today’s fast-growing food delivery industry, customers expect quick service, personalized offers, and real-time updates. However, many restaurant partners and delivery businesses face challenges such as:
 
-The food delivery industry demands fast, reliable, and customer-centric solutions. Currently, many restaurants and delivery businesses struggle with outdated manual systems. From the client’s side, the requirements include:
+1. Maintaining an updated record of menus, offers, and partners.  
+2. Tracking customer orders and delivery schedules manually, which leads to delays.  
+3. Lack of a structured loyalty system to retain customers.  
+4. Limited visibility into sales patterns, delivery time efficiency, and top-selling dishes.
 
-Digital management of restaurants, menus, and offers.
+FoodieConnect aims to resolve these issues by implementing a Salesforce CRM solution that centralizes operations. The system will allow restaurants to manage menus and offers, enable real-time order tracking for customers, automate delivery scheduling, and provide managers with actionable dashboards.
 
-Real-time tracking of customer orders and deliveries.
+---
 
-A structured loyalty program to retain and reward customers.
+## 2. Requirement Gathering
+**Core requirements identified:**
 
-Analytics and reports to understand sales patterns, delivery efficiency, and customer preferences.
+- Onboard and manage restaurant partners with menus and promotional offers.  
+- Enable customers to place orders and track delivery status in real time.  
+- Provide delivery agents with assignments and scheduling details.  
+- Implement loyalty points, coupon creation, and redemption.  
+- Provide reports and dashboards for top-selling dishes, delivery time analysis, and sales trends.
 
-2. Stakeholder Analysis
+---
 
-Restaurant Partners → Want easy menu updates, offer management, and visibility into orders.
+## 3. Stakeholder Analysis
+- **Restaurant Owners:** Need an easy interface to update menus, prices, and offers; visibility into incoming orders.  
+- **Delivery Agents:** Need assignment notifications, route/ETA details, and status update capability.  
+- **Customers:** Expect seamless ordering, timely updates (SMS/Email/Push), and loyalty benefits.  
+- **Managers/Admins:** Require dashboards and reports to monitor KPIs like average delivery time, revenue by restaurant/dish, and customer retention.
 
-Delivery Agents → Need a streamlined way to receive delivery assignments and updates.
+---
 
-Customers → Expect real-time updates, personalized offers, and loyalty rewards.
+## 4. Business Process Mapping
+**Proposed process flow:**
 
-Business Owners/Managers → Require dashboards and reports to monitor performance.
+1. Customer browses available restaurants and menus, then places an order.  
+2. Restaurant receives order, confirms preparation, and updates order status.  
+3. Delivery agent is assigned (automatic or manual) based on location/availability.  
+4. Customer receives order tracking updates; upon delivery, loyalty points are credited.  
+5. Managers review dashboards and reports to identify trends and improvement areas.
 
-3. Business Process Mapping
+This automated process replaces manual phone-based tracking and spreadsheet reliance, reducing errors and improving speed.
 
-Current manual processes include phone-based order tracking, Excel records for menus, and unstructured follow-ups. FoodieConnect will automate:
+---
 
-Lead/order capture from multiple channels.
+## 5. Industry-specific Use Case Analysis
+- The food delivery market is highly competitive; major players focus on fast delivery and loyalty programs.  
+- Smaller restaurants often lack integrated tools; FoodieConnect provides a scalable CRM that brings enterprise-like order & loyalty management to smaller partners.  
+- Key success factors: fast order handling, clear communication, and targeted offers.
 
-Scheduling and tracking of deliveries.
+---
 
-Loyalty point assignment and redemption.
+## 6. AppExchange Exploration
+Potential AppExchange integrations to enhance FoodieConnect:
 
-Centralized menu/offer management.
+- **Maps & Routing Apps** — route optimization and ETA calculations for drivers.  
+- **Messaging/Notification Apps** — Twilio/WhatsApp connectors for SMS and delivery notifications.  
+- **Loyalty Management Packages** — advanced points, tiers and coupon handling.  
+- **Payment Integrations** — secure payment collection and refunds.
 
-4. Industry-specific Use Case Analysis
-
-In the food delivery industry:
-
-Speed and accuracy of orders directly impact customer satisfaction.
-
-Restaurants need to differentiate with offers and loyalty programs.
-
-Scalability is critical as customer volume increases.
-Salesforce CRM provides automation, mobile accessibility, and dashboards to meet these needs.
-
-5. AppExchange Exploration
-
-Relevant AppExchange solutions that can be integrated:
-
-Delivery Scheduling Apps for route optimization.
-
-Loyalty & Rewards Packages to enhance customer retention.
-
-Payment Gateway Integrations for seamless transactions.
