@@ -10,6 +10,8 @@ By configuring company details, business hours, fiscal cycles, user roles, profi
 
 The company information has been configured to reflect FoodieConnect’s business identity and operating details.
 
+![Company Profile](images/company information.png)
+
 - **Organization Name:** FoodieConnect Pvt. Ltd.  
 - **Primary Contact:** Mudhuluri Lakshminarayanavarma  
 - **Phone:** 9381478293  
@@ -28,6 +30,8 @@ This setup ensures that all users in the organization experience Salesforce in t
 
 FoodieConnect has defined 24x7 business hours to ensure that support and operational activities are aligned with its always-available food delivery service.
 
+![Business Hours](images/business hours.png)
+
 - **Business Hours Name:** FoodieConnect Support Hours  
 - **Schedule:** Sunday to Saturday – 24 Hours  
 - **Default Business Hours:** Enabled  
@@ -42,6 +46,8 @@ This configuration reflects the company’s commitment to continuous service wit
 
 A Custom Fiscal Year has been activated to align financial reporting with FoodieConnect’s operational cycle.
 
+![Fiscal Year](images/fiscal year.png)
+
 - **Fiscal Year 2026:**  
   - **Start Date:** 01-Oct-2025  
   - **End Date:** 30-Sep-2026  
@@ -53,6 +59,8 @@ This customization ensures that accounting and business reporting follow the com
 ## 5. Profiles
 
 To control system access and tailor permissions for different user groups, the following profiles have been created under the Salesforce Platform license:
+
+![Profiles](images/profiles.png)
 
 - **FoodieConnect Admin** – for system administrators with high-level access.  
 - **FoodieConnect Manager** – for operational and business managers.  
@@ -66,6 +74,8 @@ This division ensures that users only access the parts of Salesforce relevant to
 ## 6. Roles
 
 A role hierarchy has been set up to mirror FoodieConnect’s organizational structure. This supports reporting visibility and record ownership.
+
+![Roles Hierarchy](images/roles.png)
 
 - **FoodieConnect Pvt. Ltd.**  
   - CEO  
@@ -102,6 +112,8 @@ This setup ensures collaboration across teams while maintaining parent-controlle
 
 To provide additional record access beyond OWDs, sharing rules have been configured:
 
+![Sharing Rules](images/sharing settings.png)
+
 - **Orders Sharing Rule:** Managers and Admins have full access to Orders owned by Riders.  
 - **Payments Sharing Rule:** Managers have full access to all Payments for financial tracking.  
 - **Customer Sharing Rule:** Support Agents have read/write access to all Customer records for better assistance.  
@@ -122,5 +134,3 @@ A custom Lightning App named **FoodieConnect** has been created. This app centra
 - Deliveries  
 - Payments  
 - Issues  
-
-This provides users with a unified workspace tailored to FoodieConnect’s food delivery business model.
