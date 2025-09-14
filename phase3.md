@@ -19,14 +19,23 @@ These objects allow the system to capture all business operations efficiently.
 ---
 
 ## 2. Fields
-Key fields were added to each object for clarity and operational needs:
-- **Restaurant:** Name, Location, Cuisine Type, Rating  
-- **Menu Item:** Name, Price, Availability, Category  
-- **Customer:** Name, Email, Loyalty Points  
+Key fields were added to each object for clarity and operational needs. Screenshots are included for better visualization:  
+
+![Restaurant Fields](images/restaurent-fields.png)  
+*Fields in Restaurant object*  
+
+![Menu Item Fields](images/menuitem-fields.png)  
+*Fields in Menu Item object*  
+
+![Customer Fields](images/customer-fields.png)  
+*Fields in Customer object*  
+
+![Payment Fields](images/payment-fields.png)  
+*Fields in Payment object*  
+
 - **Order:** Order Number, Customer, Total Amount, Status  
 - **Delivery:** Delivery Number, Order, Rider, Delivery Status  
-- **Payment:** Payment Number, Amount, Payment Method, Payment Date  
-- **Issue:** Issue Number, Customer, Status, Issue Type
+- **Issue:** Issue Number, Customer, Status, Issue Type  
 
 ---
 
