@@ -39,14 +39,25 @@ This ensures a clean, role-specific view of data.
 ---
 
 ## 4. Compact Layouts
-Designed for quick access, especially in the mobile app:
-- Restaurant Highlights
-- Menu Item Highlights
-- Customer Highlights
-- Order Highlights
-- Delivery Highlights
-- Issue Highlights
-- Payment Highlights
+Designed for quick access, especially in the mobile app. Key screenshots:  
+
+![Restaurant Compact Layout](restaurent-compact-layout.png)  
+*Restaurant Highlights*  
+
+![Menu Item Compact Layout](menu-item-compact-layout.png)  
+*Menu Item Highlights*  
+
+![Customer Compact Layout](customer-compact-layout.png)  
+*Customer Highlights*  
+
+![Order Compact Layout](order-compact-layout.png)  
+*Order Highlights*  
+
+![Delivery Compact Layout](delivery-compact-layout.png)  
+*Delivery Highlights*  
+
+![Payment Compact Layout](Payment-compact-layout.png)  
+*Payment Highlights*  
 
 These layouts display key information at a glance for faster decision-making.
 
@@ -56,6 +67,10 @@ These layouts display key information at a glance for faster decision-making.
 - **Lookup Relationships:** Connect related records, e.g., Menu Items → Restaurant.  
 - **Master-Detail Relationships:** Maintain tighter control, e.g., Orders → Menu Items.
 
-Schema Builder provides a visual map of all objects and relationships, making it easy to manage automation, reporting, and dashboards.
+Visual map of objects and relationships:  
+
+![Schema Builder](schema-builder.png)  
+*Schema Builder view of all objects and relationships*  
 
 ---
+
