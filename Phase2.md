@@ -10,7 +10,7 @@ By configuring company details, business hours, fiscal cycles, user roles, profi
 
 The company information has been configured to reflect FoodieConnect’s business identity and operating details.
 
-![Company Profile](images/company information.png)
+![Company Profile](images/company-information.png)
 
 - **Organization Name:** FoodieConnect Pvt. Ltd.  
 - **Primary Contact:** Mudhuluri Lakshminarayanavarma  
@@ -30,7 +30,7 @@ This setup ensures that all users in the organization experience Salesforce in t
 
 FoodieConnect has defined 24x7 business hours to ensure that support and operational activities are aligned with its always-available food delivery service.
 
-![Business Hours](images/business hours.png)
+![Business Hours](images/business-hours.png)
 
 - **Business Hours Name:** FoodieConnect Support Hours  
 - **Schedule:** Sunday to Saturday – 24 Hours  
@@ -46,7 +46,7 @@ This configuration reflects the company’s commitment to continuous service wit
 
 A Custom Fiscal Year has been activated to align financial reporting with FoodieConnect’s operational cycle.
 
-![Fiscal Year](images/fiscal year.png)
+![Fiscal Year](images/fiscal-year.png)
 
 - **Fiscal Year 2026:**  
   - **Start Date:** 01-Oct-2025  
@@ -112,7 +112,7 @@ This setup ensures collaboration across teams while maintaining parent-controlle
 
 To provide additional record access beyond OWDs, sharing rules have been configured:
 
-![Sharing Rules](images/sharing settings.png)
+![Sharing Rules](images/sharing-settings.png)
 
 - **Orders Sharing Rule:** Managers and Admins have full access to Orders owned by Riders.  
 - **Payments Sharing Rule:** Managers have full access to all Payments for financial tracking.  
@@ -134,3 +134,4 @@ A custom Lightning App named **FoodieConnect** has been created. This app centra
 - Deliveries  
 - Payments  
 - Issues  
+
