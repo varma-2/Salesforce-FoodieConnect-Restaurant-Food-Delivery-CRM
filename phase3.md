@@ -41,22 +41,22 @@ This ensures a clean, role-specific view of data.
 ## 4. Compact Layouts
 Designed for quick access, especially in the mobile app. Key screenshots:  
 
-![Restaurant Compact Layout](Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/images/restaurent-compact-layout.png)  
+![Restaurant Compact Layout](images/restaurent-compact-layout.png)  
 *Restaurant Highlights*  
 
-![Menu Item Compact Layout](Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/images/menu-item-compact-layout.png)  
+![Menu Item Compact Layout](images/menu-item-compact-layout.png)  
 *Menu Item Highlights*  
 
-![Customer Compact Layout](Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/images/customer-compact-layout.png)  
+![Customer Compact Layout](images/customer-compact-layout.png)  
 *Customer Highlights*  
 
-![Order Compact Layout](Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/images/order-compact-layout.png)  
+![Order Compact Layout](images/order-compact-layout.png)  
 *Order Highlights*  
 
-![Delivery Compact Layout](Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/images/delivery-compact-layout.png)  
+![Delivery Compact Layout](images/delivery-compact-layout.png)  
 *Delivery Highlights*  
 
-![Payment Compact Layout](Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/images/Payment-compact-layout.png)  
+![Payment Compact Layout](images/Payment-compact-layout.png)  
 *Payment Highlights*  
 
 These layouts display key information at a glance for faster decision-making.
@@ -69,7 +69,7 @@ These layouts display key information at a glance for faster decision-making.
 
 Visual map of objects and relationships:  
 
-![Schema Builder](Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/images/schema-builder.png)  
+![Schema Builder](images/schema-builder.png)  
 *Schema Builder view of all objects and relationships*  
 
 ---
