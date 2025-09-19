@@ -12,6 +12,8 @@
   - **Status:** Active ✅  
 
 ![Order Validation Rule](images/order_validationrule.png)  
+![Payment Validation Rule](images/payment_validation rule.png)  
+![Menu Item Validation Rule](images/menuitem-validationrule.png)  
 
 **Outcome:** Users cannot create Orders with zero or negative amounts, maintaining accurate financial data.  
 
