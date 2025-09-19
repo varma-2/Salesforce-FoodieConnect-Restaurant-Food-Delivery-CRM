@@ -1,7 +1,7 @@
 # Salesforce Automation & Configuration Report – FoodieConnect Pvt. Ltd.
 
 
-## 1️⃣ Validation Rules
+##  Validation Rules
 **Purpose:** Ensure data integrity by preventing invalid records from being saved.  
 
 **Implemented Rules:**
@@ -19,7 +19,7 @@
 
 ---
 
-## 2️⃣ Email Alerts
+## Email Alerts
 **Purpose:** Automatically notify customers when key actions occur.  
 
 **Implemented Alerts:**
@@ -35,7 +35,7 @@
 
 ---
 
-## 3️⃣ Flow Builder (Record-Triggered Flows)
+##  Flow Builder (Record-Triggered Flows)
 **Purpose:** Automate actions based on record changes.  
 
 **Implemented Flows:**
@@ -52,7 +52,7 @@
 
 ---
 
-## 4️⃣ Approval Process
+##  Approval Process
 **Purpose:** Require manager approval for Payments.  
 
 **Implemented Process:**
@@ -69,7 +69,7 @@
 
 ---
 
-## 5️⃣ Custom Notifications
+##  Custom Notifications
 **Purpose:** Send in-app notifications to Salesforce users.  
 
 **Implemented Notifications:**
