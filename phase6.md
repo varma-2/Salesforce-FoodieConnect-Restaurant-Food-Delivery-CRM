@@ -14,7 +14,7 @@ This document provides a comprehensive report on the Salesforce Food Connect app
 ---
 
 ## Application Launcher
-![Application Launcher](https://images/foodconnectapplauncher.png)
+![Application Launcher](images/foodconnectapplauncher.png)
 
 The Food Connect application has been successfully configured in Salesforce with a custom app launcher icon for easy access.
 
@@ -23,7 +23,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ## Custom Objects Implementation
 
 ### 1. Customers Object
-![Customers UI](https://images/customersui.png)
+![Customers UI](images/customersui.png)
 
 **Current Status:**
 - 4 customer records currently in the system
@@ -39,7 +39,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ---
 
 ### 2. Restaurants Object
-![Restaurants UI](https://images/restaurentsui.png)
+![Restaurants UI](images/restaurentsui.png)
 
 **Current Status:**
 - 2 restaurant records configured
@@ -53,7 +53,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ---
 
 ### 3. Menu Items Object
-![Menu Items UI](https://images/fooditemsui.png)
+![Menu Items UI](images/fooditemsui.png)
 
 **Current Status:**
 - 2 menu items currently available
@@ -67,7 +67,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ---
 
 ### 4. Orders Object
-![Orders UI](https://images/ordersui.png)
+![Orders UI](images/ordersui.png)
 
 **Current Status:**
 - 1 order record in the system
@@ -77,7 +77,7 @@ The Food Connect application has been successfully configured in Salesforce with
 **Order Details:**
 - Order Number: 00000100
 - Account Name: Mudhuluri Thanushka
-- Order Amount: ₹250.00
+
 - Order Start Date: 19/9/2025
 - Status: Draft
 - Contract Number: 00000100
@@ -85,7 +85,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ---
 
 ### 5. Payments Object
-![Payments UI](https://images/paymentsui.png)
+![Payments UI](images/paymentsui.png)
 
 **Current Status:**
 - 1 payment record configured
@@ -98,7 +98,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ---
 
 ### 6. Deliveries Object
-![Deliveries UI](https://images/deliveriesui.png)
+
 
 **Current Status:**
 - 1 delivery record in the system
@@ -111,7 +111,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ---
 
 ### 7. Issues Object
-![Issues UI](https://images/issuesui.png)
+![Issues UI](images/issuesui.png)
 
 **Current Status:**
 - 1 issue record logged
@@ -126,7 +126,7 @@ The Food Connect application has been successfully configured in Salesforce with
 ## Navigation and Layout Configuration
 
 ### Tabs Implementation
-![Tabs](https://images/tabs.png)
+![Tabs](images/tabs.png)
 
 **Navigation Bar Configuration:**
 - Customers tab
@@ -194,3 +194,4 @@ The Food Connect application has been successfully configured in Salesforce with
 - **Advanced Sorting:** Multiple sorting options available
 - **Search Capabilities:** Implemented on Orders object
 - **Navigation Mode:** Row selection enabled across all objects
+
