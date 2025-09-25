@@ -5,7 +5,7 @@ This document provides a comprehensive overview of the integration and API setup
 ---
 
 ## 1. Named Credentials
-![Named Credentials](namedcredentials.png)
+![Named Credentials](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/namedcredentials.png)
 
 - **Named Credential Created:** `FoodConnectAPI`
 - **URL:** `https://api.foodconnect.com`
@@ -16,7 +16,7 @@ This document provides a comprehensive overview of the integration and API setup
 ---
 
 ## 2. External Credentials
-![External Credentials](externalcredentials.png)
+![External Credentials](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/externalcredentials.png)
 
 - **Status:** Configured
 - **Purpose:** Enhanced security for external system authentication
@@ -25,7 +25,7 @@ This document provides a comprehensive overview of the integration and API setup
 ---
 
 ## 3. Web Services (REST/SOAP)
-![REST Apex Class](restapexclass.png)
+![REST Apex Class](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/restapexclass.png)
 
 - **SOAP Web Service:** `OrdersSoapService`
   - `getOrders()` → Retrieves orders
@@ -39,16 +39,18 @@ This document provides a comprehensive overview of the integration and API setup
 - **Status:** Configured using Named Credential
 - **Purpose:** Apex callouts can access external API endpoints (`https://api.foodconnect.com`) without needing separate Remote Site Settings.
 - **Example Usage:**
--   HttpRequest req = new HttpRequest();
+HttpRequest req = new HttpRequest();
 req.setEndpoint('callout:FoodConnectAPI/orders');
 req.setMethod('GET');
+
 Http http = new Http();
 HttpResponse res = http.send(req);
 System.debug(res.getBody());
+
 ---
 
 ## 5. Platform Events
-![Platform Events](platformevenets.png)
+![Platform Events](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/platformevenets.png)
 
 - **Event Created:** `OrderEvent__e`
 - **Type:** High Volume
@@ -59,7 +61,7 @@ System.debug(res.getBody());
 ---
 
 ## 6. Change Data Capture
-![Change Data Capture](changedatacapture.png)
+![Change Data Capture](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/changedatacapture.png)
 
 - **Objects Enabled:** `Order__c`
 - **Purpose:** Automatically tracks Create, Update, Delete, Undelete operations and publishes events.
@@ -69,7 +71,7 @@ System.debug(res.getBody());
 ---
 
 ## 7. API Limits
-![API Limits](apilimits.png)
+![API Limits](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/apilimits.png)
 
 - **Current Usage:** 112 requests in last 24 hours (0% of 15,000 daily limit)
 - **Status:** Checked
@@ -78,7 +80,7 @@ System.debug(res.getBody());
 ---
 
 ## 8. OAuth & Authentication
-![Auth Providers](authproviders.png)
+![Auth Providers](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/authproviders.png)
 
 - **Auth Provider Created:** `FoodConnectOAuth (Salesforce)`
 - **Named Credential:** Configured for OAuth 2.0 authentication
@@ -88,7 +90,7 @@ System.debug(res.getBody());
 ---
 
 ## 9. Remote Site Settings
-![Remote Site Settings](remotesitesettings.png)
+![Remote Site Settings](https://github.com/varma-2/Salesforce-FoodieConnect-Restaurant-Food-Delivery-CRM/raw/main/images/remotesitesettings.png)
 
 - **Status:** Configured
 - **Notes:** Additional remote site settings configured for backup callout endpoints and external service integrations.
@@ -106,3 +108,4 @@ The Food Connect project implements a comprehensive integration architecture wit
 - OAuth 2.0 for secure authentication
 
 All integration components are fully implemented and functional.
+
